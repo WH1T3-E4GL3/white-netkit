@@ -12,7 +12,7 @@ _______________
 	$ cd white-netkit
 	$ pip install scapy
 	$ git pull
-	$ python white-netkiit.py OR sudo python white-netkit.py
+	$ python white-netkit.py OR sudo python white-netkit.py
 
 Tool used for network attack.
 Tool devoloped by white eagle.
