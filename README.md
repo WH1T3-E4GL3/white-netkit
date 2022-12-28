@@ -11,7 +11,7 @@ _______________
 	$ git clone https://github.com/WH1T3-E4GL3/white-netkit.git
 	$ cd white-netkit
 	$ git pull
-	$ python2 white-netkiit.py OR sudo python white-netkit.py
+	$ python white-netkiit.py OR sudo python white-netkit.py
 
 Tool used for network attack.
 Tool devoloped by white eagle.
