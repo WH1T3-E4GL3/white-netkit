@@ -5,6 +5,7 @@ import subprocess
 import time
 
 os.system("pip install scapy")
+os.system("pip intsall scap.all")
 os.system("git pull")
 
 os.system("figlet White NetKit")
