@@ -6,13 +6,13 @@ _______________
 	$ apt update -y && apt upgrade -y
 	$ pkg install git
 	$ pkg install figlet
-  $ pkg install python
+  	$ pkg install python
 	$ pkg install python2
-	$ git clone https://github.com/WH1T3-E4GL3/white-ddos.git
+	$ git clone https://github.com/WH1T3-E4GL3/white-netkit.git
 	$ cd white-netkit
 	$ git pull
 	$ python2 white-netkiit.py OR sudo python white-netkit.py
-+
+
 Tool used for network attack.
 Tool devoloped by white eagle.
 
