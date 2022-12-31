@@ -21,4 +21,5 @@ Github   : https://github.com/WH1T3-E4GL3
 Telegram : https://t.me/Ka_KsHi_HaTaKe
 
 #screenshort
-![preview](https://user-images.githubusercontent.com/118425907/209818318-11856847-77b2-4ea4-a75e-a40d226bc808.png)
+
+![Screenshot_2022-12-31_04_13_00](https://user-images.githubusercontent.com/118425907/210131571-4662f77e-7505-4356-860c-0fcef06695ce.png)
