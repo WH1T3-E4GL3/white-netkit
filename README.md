@@ -6,8 +6,8 @@ _______________
 	$ apt update -y && apt upgrade -y
 	$ pkg install git
 	$ pkg install figlet
+	$ apt install lolcat
   	$ pkg install python
-	$ pkg install python2
 	$ git clone https://github.com/WH1T3-E4GL3/white-netkit.git
 	$ cd white-netkit
 	$ pip install scapy
