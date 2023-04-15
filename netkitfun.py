@@ -12,6 +12,8 @@ import sys
 from scapy.layers.http import HTTPRequest # in http sniff
 import socket #ddos
 import random #ddos
+import fcntl #connected device 
+from collections import namedtuple #connected device
 
 #===========================================================================================================================
 #Do sudo apt-get install macchanger to do this
@@ -84,7 +86,6 @@ def deauth():
         sendp(frame, iface=iface, inter=0.1, loop=True)
     else:
         sendp(frame, iface=iface, count=count, inter=0.1)
-
 #=================================================================================================================================
 def get_interface_ip_address(ifname):
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
