@@ -52,8 +52,9 @@ def torstop():
         print("Failed to stop Tor. Error message:\n", str(stderr))
 
 #=============================================================================================================================
-def openvpn_connect():
-    os.system("openvpn /root/white-netkit/vpnbook-openvpn-us1/vpnbook-us1-udp53.ovpn")
+#Here was something...
+#
+#
 #=============================================================================================================================
 
 #pip install scapy
