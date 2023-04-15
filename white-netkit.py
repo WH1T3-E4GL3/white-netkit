@@ -23,7 +23,7 @@ message = """\033[33m
         █ 6.  Start a deauthentication attack
         █ 7.  Start ARP Poisoning attack
         █ 8.  Sniff the http traffic in the network
-        █ 9. Dos attack (UDP flooding)
+        █ 9.  Dos attack (UDP flooding)
         █ 10. Scan your ip range for showing active devices
         █ 11. Contact devoloper
         █ 12. Exit
@@ -65,6 +65,14 @@ elif choice == 11:
     \033[32m================================================================\033[0m
     """)
 elif choice == 12:
+    print(" ")
+    print("Ok bye...")
+    print("Thank you for using white netkit...")
+    print(" ")
     os.system("exit")
+elif choice == 13:
+    # Prompt user for network interface name
+    ifname = input("Enter the network interface name: ")
+    show_devices(ifname)
 else:
     print("\033[31m[ERROR!]\033[0m Invalid input, please try again.")
