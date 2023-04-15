@@ -7,7 +7,9 @@ _______________
 	$ pkg install git
 	$ pkg install figlet
 	$ apt install lolcat
-  	$ pkg install python
+  	$ apt install python
+	$ sudo apt-get install macchanger
+	$ sudo apt-get install tor torsocks
 	$ git clone https://github.com/WH1T3-E4GL3/white-netkit.git
 	$ cd white-netkit
 	$ pip install scapy
