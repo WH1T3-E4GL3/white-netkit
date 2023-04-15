@@ -19,15 +19,14 @@ message = """\033[33m
         █ 2.  Reset MAC address                                     
         █ 3.  Route your full device through TOR
         █ 4.  Stop routing via TOR
-        █ 5.  Connect to Vpn via OpenVPN
-        █ 6.  show devices connected to the Network
-        █ 7.  Start a deauthentication attack
-        █ 8.  Start ARP Poisoning attack
-        █ 9.  Sniff the http traffic in the network
-        █ 10. Dos attack (UDP flooding)
-        █ 11. Scan your ip range for showing active devices
-        █ 12. Contact devoloper
-        █ 13. Exit
+        █ 5.  show devices connected to the Network
+        █ 6.  Start a deauthentication attack
+        █ 7.  Start ARP Poisoning attack
+        █ 8.  Sniff the http traffic in the network
+        █ 9. Dos attack (UDP flooding)
+        █ 10. Scan your ip range for showing active devices
+        █ 11. Contact devoloper
+        █ 12. Exit
         █▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 \033[0m
 """
@@ -44,21 +43,19 @@ elif choice == 3:
 elif choice == 4:
     torstop()
 elif choice == 5:
-    openvpn_connect()
-elif choice == 6:
     show_devices()
-elif choice == 7:
+elif choice == 6:
     deauth()
-elif choice == 8:
+elif choice == 7:
     arp_spoof_main()
-elif choice == 9:
+elif choice == 8:
     sniff_http_traffic()
-elif choice == 10:
+elif choice == 9:
     udp_flood_attack()
-elif choice == 11:
+elif choice == 10:
     iprange=input("[+] Enter your ip start range(eg:10.0.2.0) > ")
     scan_network(iprange)
-elif choice == 12:
+elif choice == 11:
     os.system("clear")
     print("""
     \033[32m================================================================\033[0m
@@ -67,7 +64,7 @@ elif choice == 12:
     \033[33mTelegram        : https://t.me/Ka_KsHi_HaTaKe\033[0m
     \033[32m================================================================\033[0m
     """)
-elif choice == 13:
+elif choice == 12:
     os.system("exit")
 else:
     print("\033[31m[ERROR!]\033[0m Invalid input, please try again.")
