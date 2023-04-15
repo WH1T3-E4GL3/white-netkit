@@ -1,7 +1,8 @@
-# white-netkit
+# white-netkit for kali linux os
 This is a multipurpose tool which can be used in networking and network hacking related scenarioes.
 This toolkit is a collection of Python scripts that provide various network-related functionalities for network exploration, analysis, and security testing. It includes functionalities such as MAC address spoofing, Tor routing, ARP spoofing, deauthentication attacks, network device discovery, and HTTP sniffing. The toolkit makes use of popular Python libraries such as subprocess, os, time, scapy, socket, random, fcntl, and struct to perform these tasks.
 
+Install in kali linux
 commands (Run with root permissions -sudo su)
 _______________
 	$ apt update -y && apt upgrade -y
