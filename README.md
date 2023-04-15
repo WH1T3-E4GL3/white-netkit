@@ -24,4 +24,6 @@ Telegram : https://t.me/Ka_KsHi_HaTaKe
 
 #screenshort
 
-![Screenshot_2022-12-31_04_13_00](https://user-images.githubusercontent.com/118425907/210131571-4662f77e-7505-4356-860c-0fcef06695ce.png)
+![Screenshot_2023-04-15_08_58_45](https://user-images.githubusercontent.com/118425907/232225639-a079da32-6464-4583-9536-76530ebaa245.png)
+
+
